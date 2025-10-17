@@ -10,31 +10,74 @@ Below is a screenshot showing the output after authenticating with Dropbox Busin
 **Result:**
 Successfully retrieved user profile information, including email, name, membership type, and status.
 
-![](C:\Users\26adi\OneDrive\Pictures\Screenshots 1\Screenshot 2025-10-18 041612.png)
-
-src="C:\Users\26adi\OneDrive\Pictures\Screenshots 1\Screenshot 2025-10-18 041612.png" width="1919"/>
-
 **Sample JSON Output:**
 ```json
 {
 "members": [
 {
 "profile": {
-"team_member_id": "dbmid:AAAUxgIDYoWFHgbUSl9UqiVRINEjau7bFU",
-"account_id": "dbid:AACKySKVr92yo3t6en60nd1Buj-4Lt5_iIk",
-"email": "adityagupta.bbh@gmail.com",
+"team_member_id": "dbmid:AAAUxgIDYoWFHgbUSI9UqiVIRINEjau7bFU",
+"account_id": "dbid:AACKySKVr92yo9t3en60nd1Buj-4Lt5_iIk",
+"email": "adityagupta.bhl@gmail.com",
 "email_verified": true,
-"status": { "tag": "active" },
+"secondary_emails": [],
+"status": {
+".tag": "active"
+},
 "name": {
-"given_name": "Aditya",<img height="1147" 
+"given_name": "Aditya",
 "surname": "Gupta",
+"familiar_name": "Aditya",
 "display_name": "Aditya Gupta",
 "abbreviated_name": "AG"
 },
-"membership_type": { "tag": "full" },
-"joined_on": "2025-10-17T19:31:02Z"
+"membership_type": {
+".tag": "full"
+},
+"joined_on": "2025-10-17T19:31:00Z",
+"groups": [
+"g:3c7fa6ba1a4ed2340000000000000003"
+],
+"member_folder_id": "11919298355",
+"root_folder_id": "13044157633"
+},
+"roles": [
+{
+"role_id": "pid_dbtmr:AAAAAFMcx6E0tax39Kb0H671TzWLeE07dwaqFQ5fDRy2",
+"name": "Team",
+"description": "Manage everything and access all permissions"
+}
+]
+},
+{
+"profile": {
+"team_member_id": "dbmid:AACxMDiqEymUkemzhmp7fa_Y_t-haq7vnLc",
+"account_id": "dbid:AAAyLVg1ZBtabGzv9AUuqkbYTHdNvVCqEm8",
+"email": "26adityagupta.bhl@gmail.com",
+"email_verified": false,
+"secondary_emails": [],
+"status": {
+".tag": "invited"
+},
+"name": {
+"given_name": "",
+"surname": "",
+"familiar_name": "",
+"display_name": "",
+"abbreviated_name": ""
+},
+"membership_type": {
+".tag": "full"
+},
+"invited_on": "2025-10-17T19:33:13Z",
+"groups": [
+"g:3c7fa6ba1a4ed2340000000000000003"
+],
+"member_folder_id": "13041698001",
+"root_folder_id": "13031102401"
 }
 }
 ],
+"cursor": "AABNk5dl6ln1UqALrC4qKs9kea6aRjSGOa9j5oofjiSvbp7PqipclCa4WWIdnPN2KDSWy7PKdvNsV7q11hoDVqn-DlWeiFc1_J0T7q4db6ywjg",
 "has_more": false
 }
